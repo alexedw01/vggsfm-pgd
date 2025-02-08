@@ -17,22 +17,15 @@ dir="auto">[<a href="https://arxiv.org/pdf/2312.04563.pdf" rel="nofollow">Paper<
 [Version 2.0]
 </p> 
 
+## Step
 
-**Updates:**
+Hello here are the set up step you need to follow in our to get this project working on the lab servers. 
 
-
-- [Sep 9, 2024] Allow to export a dense point cloud!
-
-- [Sep 5, 2024] Added the instruction on how to train a Gaussian splatting model with our results! 
-
-- [Aug 26, 2024]
-  - We have introduced a video runner that can process sequential frames, such as those in videos. It supports the reconstruction of over ```1000``` input frames. By using masks to filter out moving objects, it can also effectively recover camera poses and point clouds from dynamic video sequences.
-
-- [Jul 28, 2024] Added support for filtering out dynamic objects using ```masks```.
-
-- [Jul 10, 2024] Now we support exporting dense depth maps!
-
-- Happy to share we were ranked 1st 🥇 in the CVPR24 IMC Challenge regarding camera pose (Rot&Trans) estimation.
+1. git clone to lab servers follow set up instructions below.
+2. implement bug fix from **[here](https://github.com/facebookresearch/vggsfm/issues/85)**
+3. basic example to see if project is working
+4. integrate **[PGD](https://github.com/MadryLab/mnist_challenge)**
+  - pdg_attack.py already added (not finished)
 
 ## Table of Contents
 - [Installation](#installation)
