@@ -27,6 +27,8 @@ Hello here are the set up step you need to follow in our to get this project wor
 4. integrate **[PGD](https://github.com/MadryLab/mnist_challenge)**
   - pdg_attack.py already added (not finished)
 
+**Progress:** what I am currently attempting is to write a script that can run as a part of video_demo.py. result will be posted to different branch. 
+
 ## Table of Contents
 - [Installation](#installation)
 - [Reconstruction](#reconstruction)
